@@ -1,0 +1,21 @@
+{
+  "gene": "FSP1",
+  "entrez": 84883,
+  "study": "blca_tcga_pan_can_atlas_2018",
+  "alteration": {
+    "total": 408,
+    "mutated": 3,
+    "amplified": 3,
+    "gain": 40,
+    "shallow_del": 139,
+    "deep_del": 2
+  },
+  "mutation_sites": 3,
+  "cna_counts": {
+    "-2": 2,
+    "-1": 139,
+    "0": 224,
+    "1": 40,
+    "2": 3
+  }
+}

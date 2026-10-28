@@ -1,0 +1,297 @@
+==== QC rerun START 周三 2026/10/28 22:10:18.82 ==== 
+[full] P=0.7932265  log2FC=0.051222  (tumor mean 8.95392 vs normal mean 8.90269)
+[downsampling] median P=0.559 (95% 0.038-1.000)  P<0.05: 3.2%  P<0.10: 6.5%
+[downsampling] log2FC mean=0.058160 median=0.059837  range -0.588011-0.696721
+[percentile] full P=0.7932 位于 1000 次 P 分布的 75.9% 分位（759 次 ≤ 它）
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+[done] analysis1b (FigS1 v2 + downsampling_results.csv)
+[input] tumor samples: 407  genes: 20530 
+[ESTIMATE] signature overlap: StromalSignature=141, ImmuneSignature=141 
+    n     mean       sd    median        min     max
+1 342 0.561209 0.290166 0.5888491 0.00081592 0.99634
+          class    rho_raw       p_raw
+8  细胞毒性细胞  0.1135715 0.021929262
+15   中性粒细胞 -0.1410256 0.004363768
+17 浆样树突细胞  0.1401687 0.004609917
+[check] 三条显著相关与基线一致
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+[done] analysis2
+[input] tumor 407 genes 20530 
+[1] "1 gene set: StromalSignature  overlap= 141"
+[1] "2 gene set: ImmuneSignature  overlap= 141"
+TCGA.DK.A6B2.01: out of bounds
+TCGA.FD.A5C1.01: out of bounds
+TCGA.FT.A61P.01: out of bounds
+TCGA.FD.A6TB.01: out of bounds
+TCGA.FD.A3B7.01: out of bounds
+TCGA.XF.A9SY.01: out of bounds
+TCGA.FD.A43U.01: out of bounds
+TCGA.K4.A83P.01: out of bounds
+TCGA.FD.A43S.01: out of bounds
+TCGA.S5.A6DX.01: out of bounds
+TCGA.GU.A766.01: out of bounds
+TCGA.XF.A9T8.01: out of bounds
+TCGA.UY.A9PH.01: out of bounds
+TCGA.XF.A9SL.01: out of bounds
+TCGA.K4.A5RJ.01: out of bounds
+TCGA.K4.A3WS.01: out of bounds
+TCGA.XF.A9SW.01: out of bounds
+TCGA.GV.A3QG.01: out of bounds
+TCGA.FD.A5BU.01: out of bounds
+TCGA.FD.A62S.01: out of bounds
+TCGA.K4.A5RH.01: out of bounds
+TCGA.R3.A69X.01: out of bounds
+TCGA.FD.A3B8.01: out of bounds
+TCGA.GU.A762.01: out of bounds
+TCGA.YC.A8S6.01: out of bounds
+TCGA.4Z.AA86.01: out of bounds
+TCGA.XF.AAN4.01: out of bounds
+TCGA.4Z.AA7N.01: out of bounds
+TCGA.XF.AAMT.01: out of bounds
+TCGA.XF.AAME.01: out of bounds
+TCGA.FD.A3SL.01: out of bounds
+TCGA.BT.A20O.01: out of bounds
+TCGA.FD.A3SP.01: out of bounds
+TCGA.FD.A5BT.01: out of bounds
+TCGA.E7.A97P.01: out of bounds
+TCGA.UY.A9PB.01: out of bounds
+TCGA.ZF.AA53.01: out of bounds
+TCGA.SY.A9G5.01: out of bounds
+TCGA.UY.A78P.01: out of bounds
+TCGA.DK.AA6T.01: out of bounds
+TCGA.E7.A7DV.01: out of bounds
+TCGA.4Z.AA7W.01: out of bounds
+TCGA.GC.A6I1.01: out of bounds
+TCGA.DK.AA74.01: out of bounds
+TCGA.DK.A1AB.01: out of bounds
+TCGA.DK.A3IU.01: out of bounds
+TCGA.FD.A62N.01: out of bounds
+TCGA.DK.A3WY.01: out of bounds
+TCGA.XF.A9SI.01: out of bounds
+TCGA.XF.A9T5.01: out of bounds
+TCGA.DK.A2I1.01: out of bounds
+TCGA.DK.A1AF.01: out of bounds
+TCGA.XF.A9SX.01: out of bounds
+TCGA.FD.A5BS.01: out of bounds
+TCGA.XF.A9SM.01: out of bounds
+TCGA.FD.A5BX.01: out of bounds
+TCGA.DK.A2I4.01: out of bounds
+TCGA.FD.A3B3.01: out of bounds
+TCGA.ZF.AA54.01: out of bounds
+TCGA.ZF.AA58.01: out of bounds
+TCGA.BL.A5ZZ.01: out of bounds
+TCGA.G2.AA3C.01: out of bounds
+TCGA.FD.A6TK.01: out of bounds
+TCGA.DK.A3IQ.01: out of bounds
+TCGA.BL.A13I.01: out of bounds
+[check] package vs port: max|diff| Stromal=1.02e-12 Immune=1.00e-11 ESTIMATE=1.00e-11 Purity=9.99e-16
+[purity] usable 342/407  mean 0.561 median 0.589
+Warning messages:
+1: In pcor(xyz, method = method) :
+  The inverse of variance-covariance matrix is calculated using Moore-Penrose generalized matrix invers due to its determinant of zero.
+2: In sqrt((n - 2 - gp)/(1 - pcor^2)) : NaNs produced
+          score rho_raw  p_raw rho_partial p_partial
+1   ImmuneScore 0.05110 0.3037   -0.003194    0.9531
+2  StromalScore 0.02483 0.6174   -0.014834    0.7849
+3 ESTIMATEScore 0.04350 0.3814   -0.061790    0.2552
+! Some gene sets have size one. Consider setting minSize > 1
+             cell_type   raw_rho     raw_p partial_rho partial_p   n
+11 NK CD56bright cells  0.203857 3.419e-05     0.23284 1.401e-05 342
+4      Cytotoxic cells  0.169485 5.956e-04     0.16225 2.654e-03 342
+14                 pDC  0.176330 3.510e-04     0.15148 5.060e-03 342
+20                 Tgd  0.170398 5.557e-04     0.14790 6.216e-03 342
+3          CD8 T cells  0.138426 5.149e-03     0.14732 6.424e-03 342
+7                  iDC  0.123723 1.249e-02     0.10419 5.459e-02 342
+5                   DC  0.130805 8.238e-03     0.09048 9.529e-02 342
+18                 Tem  0.119326 1.602e-02     0.08822 1.039e-01 342
+15             T cells  0.090536 6.806e-02     0.06800 2.104e-01 342
+2              B cells  0.064998 1.907e-01     0.06780 2.117e-01 342
+22          Th17 cells  0.067943 1.713e-01     0.06441 2.355e-01 342
+12    NK CD56dim cells  0.073744 1.375e-01     0.06095 2.617e-01 342
+6          Eosinophils  0.041163 4.075e-01     0.05898 2.774e-01 342
+9           Mast cells  0.002271 9.636e-01     0.03858 4.777e-01 342
+1                  aDC  0.013476 7.863e-01    -0.01124 8.362e-01 342
+13            NK cells  0.009452 8.492e-01    -0.02939 5.887e-01 342
+24                Treg  0.015797 7.507e-01    -0.03213 5.543e-01 342
+19                 TFH -0.024042 6.287e-01    -0.04843 3.726e-01 342
+8          Macrophages  0.033326 5.026e-01    -0.05671 2.964e-01 342
+16      T helper cells -0.051805 2.971e-01    -0.07450 1.699e-01 342
+23           Th2 cells -0.082727 9.558e-02    -0.09712 7.329e-02 342
+21           Th1 cells -0.015739 7.516e-01    -0.09962 6.613e-02 342
+10         Neutrophils -0.050092 3.134e-01    -0.16807 1.843e-03 342
+17                 Tcm -0.238472 1.135e-06    -0.19655 2.602e-04 342
+[CD8 original] rho=0.099 P=0.046  ->  purity-adjusted rho=0.080 P=0.138
+[CD8 Bindea24] raw rho=0.138 P=0.0051 -> partial rho=0.147 P=0.0064
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+[done] analysis2b
+[input] tumor samples: 407  genes: 20530 
+[signature] 24 sets, total genes: 512  matrix intersection per set: min 1 max 36 
+! Some gene sets have size one. Consider setting minSize > 1
+[check] 三类 ρ 与手动移植对照一致（-0.0501 / 0.1763 / 0.1695）
+[purity] usable samples: 342 / 407 
+                 class n_genes_signature n_genes_used  rho_raw    p_raw
+17                 Tcm                39           36 -0.23847 1.14e-06
+11 NK CD56bright cells                10            8  0.20386 3.42e-05
+14                 pDC                 1            1  0.17633 3.51e-04
+20                 Tgd                 6            4  0.17040 5.56e-04
+4      Cytotoxic cells                17           16  0.16949 5.96e-04
+3          CD8 T cells                37           36  0.13843 5.15e-03
+5                   DC                 7            7  0.13081 8.24e-03
+7                  iDC                31           30  0.12372 1.25e-02
+18                 Tem                15           13  0.11933 1.60e-02
+15             T cells                18           16  0.09054 6.81e-02
+23           Th2 cells                27           26 -0.08273 9.56e-02
+12    NK CD56dim cells                15            8  0.07374 1.37e-01
+22          Th17 cells                 3            3  0.06794 1.71e-01
+2              B cells                34           28  0.06500 1.91e-01
+16      T helper cells                23           21 -0.05180 2.97e-01
+10         Neutrophils                31           26 -0.05009 3.13e-01
+6          Eosinophils                32           30  0.04116 4.08e-01
+8          Macrophages                33           33  0.03333 5.03e-01
+19                 TFH                32           31 -0.02404 6.29e-01
+24                Treg                 1            1  0.01580 7.51e-01
+21           Th1 cells                27           27 -0.01574 7.52e-01
+1                  aDC                 5            4  0.01348 7.86e-01
+13            NK cells                37           27  0.00945 8.49e-01
+9           Mast cells                31           27  0.00227 9.64e-01
+   rho_partial p_partial  fdr_raw fdr_partial
+17     -0.1966  0.000260 2.73e-05    0.003123
+11      0.2328  0.000014 4.10e-04    0.000336
+14      0.1515  0.005060 2.81e-03    0.022027
+20      0.1479  0.006216 2.86e-03    0.022027
+4       0.1623  0.002654 2.86e-03    0.015926
+3       0.1473  0.006424 2.06e-02    0.022027
+5       0.0905  0.095292 2.82e-02    0.207786
+7       0.1042  0.054585 3.75e-02    0.163756
+18      0.0882  0.103893 4.27e-02    0.207786
+15      0.0680  0.210375 1.63e-01    0.338800
+23     -0.0971  0.073290 2.09e-01    0.175895
+12      0.0610  0.261650 2.75e-01    0.369388
+22      0.0644  0.235489 3.16e-01    0.353234
+2       0.0678  0.211750 3.27e-01    0.338800
+16     -0.0745  0.169901 4.70e-01    0.313664
+10     -0.1681  0.001843 4.70e-01    0.014741
+6       0.0590  0.277445 5.75e-01    0.369927
+8      -0.0567  0.296376 6.70e-01    0.374369
+19     -0.0484  0.372587 7.94e-01    0.447105
+24     -0.0321  0.554332 8.58e-01    0.604725
+21     -0.0996  0.066135 8.58e-01    0.175895
+1      -0.0112  0.836162 8.58e-01    0.836162
+13     -0.0294  0.588663 8.86e-01    0.614257
+9       0.0386  0.477710 9.64e-01    0.545954
+[done] analysis4
+samples: BC1, BC2, BC3, BC4, BC5, BC6, BC7, BCN 
+[read] BC1 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 3218 
+[read] BC2 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 5006 
+[read] BC3 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 3100 
+[read] BC4 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 5131 
+[read] BC5 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 8643 
+[read] BC6 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 6167 
+[read] BC7 ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 5523 
+[read] BCN ...
+Warning: Feature names cannot have underscores ('_'), replacing with dashes ('-')
+  cells after min.features>=200: 6035 
+            used   (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells   3625606  193.7    6079984  324.8   6079984  324.8
+Vcells 153839552 1173.8  446765429 3408.6 446166861 3404.0
+merged cells: 42823 genes: 21854 
+cells after QC: 42455 
+Warning: The following features are not present in the object: CDH5, KDR, CLDN5, not searching for symbol synonyms
+Warning: The following features are not present in the object: COL1A2, LUM, PDGFRB, FAP, not searching for symbol synonyms
+Warning: The following features are not present in the object: ITGAM, not searching for symbol synonyms
+Warning: The following features are not present in the object: CDH5, KDR, not searching for symbol synonyms
+Warning: The following features are not present in the object: PDGFRA, not searching for symbol synonyms
+Warning: The following features are not present in the object: CDH5, KDR, CLDN5, not searching for symbol synonyms
+Warning: The following features are not present in the object: COL1A2, COL3A1, DCN, PDGFRB, FAP, not searching for symbol synonyms
+Warning: The following features are not present in the object: CD8A, not searching for symbol synonyms
+Warning: The following features are not present in the object: CDH5, KDR, not searching for symbol synonyms
+Warning: The following features are not present in the object: PDGFRB, not searching for symbol synonyms
+Warning: The following features are not present in the object: CD8A, not searching for symbol synonyms
+Warning: The following features are not present in the object: CD8A, not searching for symbol synonyms
+Warning: The following features are not present in the object: ITGAM, not searching for symbol synonyms
+Warning: The following features are not present in the object: CDH5, KDR, CLDN5, not searching for symbol synonyms
+Warning: The following features are not present in the object: FAP, not searching for symbol synonyms
+Warning: The following features are not present in the object: PDGFRB, FAP, not searching for symbol synonyms
+Warning: The following features are not present in the object: VWF, CDH5, KDR, not searching for symbol synonyms
+
+      Tumor  Macrophage Endothelial  Fibroblast           T       Other 
+      34034        1652         659        3387         759        1964 
+[done] rds + lineage counts csv
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+[done] Fig2A_UMAP_all_celltypes + Fig2B_dotplot_lineage_markers
+[join] TISCH2 annotation matched 15538 / 15538 cells
+[umap] rds meta vs TISCH2 coords max|diff| = 0 
+Normalizing layer: counts
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[anchor] Treg 29/3813 (0.76%), CD8T 36/5585 (0.64%) reproduced
+       cell_type n_cells n_positive positivity_rate wilson_lower wilson_upper
+lower       Treg    3813         29          0.7606      0.53008       1.0901
+lower1     CD8_T    5585         36          0.6446      0.46597       0.8910
+lower2 CD4_Tconv    3828         13          0.3396      0.19858       0.5802
+lower3        NK     534          1          0.1873      0.03306       1.0530
+lower4    CD8Tex    1539          9          0.5848      0.30797       1.1077
+lower5   Tprolif     239          3          1.2552      0.42779       3.6248
+       mean_expression
+lower         0.018361
+lower1        0.016308
+lower2        0.008100
+lower3        0.005191
+lower4        0.013667
+lower5        0.026432
+Warning message:
+`geom_errorbarh()` was deprecated in ggplot2 4.0.0.
+ℹ Please use the `orientation` argument of `geom_errorbar()` instead. 
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+`height` was translated to `width`.
+`height` was translated to `width`.
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+[done] analysis6 (FigS4A/B/C + FigS4_source_data_GSE149652.csv)
+[input] GSE135337 cells: 42455  lineages: Tumor/Macrophage/T/Endothelial/Fibroblast/Other 
+[layers] 8 layers concatenated, no missing cells
+         cell_type n_cells n_positive positivity_rate wilson_lower wilson_upper
+lower        Tumor   34034       2901           8.524        8.232        8.825
+lower1  Macrophage    1652         90           5.448        4.453        6.649
+lower2           T     759         38           5.007        3.669        6.797
+lower3 Endothelial     659         62           9.408        7.409       11.878
+lower4  Fibroblast    3387        189           5.580        4.856        6.405
+lower5       Other    1964         98           4.990        4.112        6.044
+       mean_expression
+lower          0.05847
+lower1         0.03626
+lower2         0.03215
+lower3         0.05543
+lower4         0.04801
+lower5         0.03655
+Warning message:
+Using ragg device as default. Ignoring `type` and `antialias` arguments 
+[done] analysis6b (Fig2B_dotplot_AIFM2 + Fig2_source_data.csv)
+==== QC rerun END 周三 2026/10/28 22:16:04.92 ==== 

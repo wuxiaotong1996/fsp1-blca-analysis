@@ -1,0 +1,20 @@
+{
+  "gene": "AIFM2",
+  "label": "FSP1 (AIFM2)",
+  "expression": {
+    "n_tumor": 407,
+    "n_normal": 19,
+    "median_tumor": 8.9795,
+    "median_normal": 8.977,
+    "mannwhitney_p": 0.7932264758404254
+  },
+  "survival": {
+    "n_total": 403,
+    "events": 177,
+    "median_cut": 8.9886,
+    "logrank_p": 0.15038543077376376,
+    "hr": 0.8048580332914382,
+    "hr_ci_low": 0.5983017653352741,
+    "hr_ci_high": 1.0827252922958572
+  }
+}
